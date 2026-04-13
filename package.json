@@ -1,8 +1,10 @@
 {
   "name": "sqlalchemyrepr",
   "displayName": "SQLAlchemy __repr__() Generator",
-  "description": "",
-  "version": "0.0.1",
+  "description": "Generates __repr__() functions for SQLAlchemy's ORM",
+  "icon": "icon.png",
+  "version": "1.0.0",
+  "publisher": "fgclue",
   "engines": {
     "vscode": "^1.114.0"
   },
@@ -23,6 +25,7 @@
       }
     ]
   },
+  "repository": "https://github.com/fgclue2/SQLAlchemyReprGenerator",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
@@ -32,7 +35,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.115.0",
+    "@types/vscode": "^1.114.0",
     "@types/mocha": "^10.0.8",
     "@types/node": "20.x",
     "@typescript-eslint/eslint-plugin": "^8.7.0",
