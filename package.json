@@ -3,7 +3,7 @@
   "displayName": "SQLAlchemy __repr__() Generator",
   "description": "Generates __repr__() functions for SQLAlchemy's ORM",
   "icon": "icon.png",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "fgclue",
   "engines": {
     "vscode": "^1.114.0"
