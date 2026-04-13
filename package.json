@@ -16,6 +16,10 @@
       {
         "command": "sqlalchemyrepr.reprgenerate",
         "title": "SQLAlchemy: Create __repr__() string"
+      },
+      {
+        "command": "sqlalchemyrepr.boilergenerate",
+        "title": "SQLAlchemy: Create full __repr()__ boilerplate"
       }
     ]
   },
